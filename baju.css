@@ -1,0 +1,21 @@
+:root {
+    --mainColor : #18122B;
+    --secondaryColor : #2C2848;
+    --acsentColor : #FFB200;
+    --otherColor : #FFFFFF;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav-link {
+    color: var(--acsentColor);
+    font-weight: 500;
+}
+
+nav-link:hover, .nav-link active{
+    color: var(--acsentColor);
+}
